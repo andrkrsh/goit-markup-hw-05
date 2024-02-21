@@ -501,6 +501,26 @@ header a {
   color: #fff;
 }
 
+.sub-btn {
+  min-width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+
+.icon-send {
+  margin-left: 16px;
+  fill: #fff;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
