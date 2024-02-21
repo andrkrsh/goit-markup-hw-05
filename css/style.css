@@ -564,8 +564,8 @@ header a {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 40%);
   border-radius: 4px;
-  background-color: transperent;
-  outline: transparent;
+  background-color: transparent;
+
   padding-left: 38px;
   font-size: 16px;
   transition-duration: 300ms;
@@ -574,6 +574,10 @@ header a {
 
 .modal-input:focus {
   border-color: #4d5ae5;
+}
+
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
 }
 
 .modal-input::placeholder {
@@ -595,7 +599,7 @@ header a {
   fill: #4d5ae5;
 }
 
-.modal-form:nth-child(4) {
+.modal-field:nth-child(4) {
   margin-bottom: 16px;
 }
 
@@ -619,7 +623,7 @@ header a {
   border-color: #4d5ae5;
 }
 
-.modal-form:nth-child(5) {
+.modal-field:nth-child(5) {
   margin-bottom: 24px;
 }
 
@@ -653,10 +657,10 @@ header a {
   margin-left: 2px;
 }
 
-.form-check:checked + .privacy-span {
-  border: none;
+.form-check:checked + .check-text span {
   fill: #f4f4fd;
   background-color: #404bbf;
+  border: none;
 }
 
 .send-btn {
