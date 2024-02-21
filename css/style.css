@@ -207,6 +207,7 @@ header a {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .introduction-title {
@@ -452,7 +453,7 @@ header a {
 
 .footer-text {
   color: #f4f4fd;
-  width: 256px;
+  max-width: 256px;
 }
 
 .footer-social-list {
