@@ -497,7 +497,7 @@ header a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 23px;
+  padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 8px;
 }
@@ -511,7 +511,7 @@ header a {
   position: absolute;
   top: 24px;
   right: 24px;
-  display: felx;
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -525,12 +525,13 @@ header a {
   border: none;
 }
 
-.icon-vector {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-close:hover .icon-vector,
+.modal-close:focus .icon-vector {
+  fill: #ffffff;
 }
 
-.backdrop-title-container {
-  padding: 72px 24px 24px 24px;
+.icon-vector {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop-title {
