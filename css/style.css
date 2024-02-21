@@ -497,6 +497,10 @@ header a {
   color: #fff;
 }
 
+.sub-email::placeholder {
+  color: #fff;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
